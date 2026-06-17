@@ -31,7 +31,7 @@ esg-reporter/
 ├── .env.local                       ← env vars (gitignored)
 ├── .github/
 │   └── workflows/
-│       └── ci.yml                   ← lint + typecheck + test (Damon)
+│       └── ci.yml                   ← lint + typecheck + test
 └── src/
     ├── app/
     │   ├── layout.tsx               ← ClerkProvider root
