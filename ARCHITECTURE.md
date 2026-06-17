@@ -1,10 +1,5 @@
 # ESG Reporter — Architecture
 
-**Stack: 2 — Next.js / React / Hono / SQLite / better-sqlite3 (Drizzle ORM)**
-**Lead: Dominic Cross**
-**Active Developers: Kai Chen (Frontend), Ethan Brooks (Backend), Damon Miller (DevOps), Trinity Nix (QA)**
-**Date: 2026-06-12**
-
 ---
 
 ## 1. Overview
@@ -173,7 +168,7 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
 
 ---
 
-## 9. Acceptance Criteria (Trinity)
+## 9. Acceptance Criteria
 
 | ID | Criterion | Tenant Isolation |
 |----|-----------|-----------------|
