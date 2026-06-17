@@ -4,7 +4,7 @@
 
 ## 1. Overview
 
-ESG Reporter is a **single Next.js application**. There are no separate microservices, no Python engine, and no external database server. The API layer runs as Hono routes mounted inside Next.js API routes. The database is a local SQLite file managed by Drizzle ORM via `better-sqlite3` (native synchronous SQLite driver).
+ESG Reporter is a **single Next.js application**. The API layer runs as Hono routes mounted inside Next.js API routes. The database is a local SQLite file managed by Drizzle ORM via `better-sqlite3` (native synchronous SQLite driver).
 
 ```
 Browser → Next.js :3000
