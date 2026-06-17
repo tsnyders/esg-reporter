@@ -115,16 +115,16 @@ reportJobs       id (text PK, uuid), companyId → companies.id,
 
 All `/api/v1/*` except `/health` require `Authorization: Bearer <Clerk JWT>`.
 
-| Method | Path | Description | Owner |
-|--------|------|-------------|-------|
-| GET | `/api/v1/health` | Liveness probe | Ethan |
-| GET | `/api/v1/companies` | List tenant companies | Ethan |
-| POST | `/api/v1/companies` | Create company | Ethan |
-| GET | `/api/v1/emission-records?companyId=` | List emission records | Ethan |
-| POST | `/api/v1/emission-records` | Create emission record | Ethan |
-| GET | `/api/v1/report-jobs?companyId=` | List report jobs | Ethan |
-| POST | `/api/v1/report-jobs` | Create report job | Ethan |
-| GET | `/api/v1/reports/export?companyId=&format=pdf\|csv` | Export report | Ethan |
+| Method | Path | Description |
+|--------|------|-------------|
+| GET | `/api/v1/health` | Liveness probe |
+| GET | `/api/v1/companies` | List tenant companies |
+| POST | `/api/v1/companies` | Create company |
+| GET | `/api/v1/emission-records?companyId=` | List emission records |
+| POST | `/api/v1/emission-records` | Create emission record |
+| GET | `/api/v1/report-jobs?companyId=` | List report jobs |
+| POST | `/api/v1/report-jobs` | Create report job |
+| GET | `/api/v1/reports/export?companyId=&format=pdf\|csv` | Export report |
 
 ---
 
